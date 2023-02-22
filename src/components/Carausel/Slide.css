@@ -1,0 +1,23 @@
+.slide-swiper-container{
+    /* background-color: red; */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    width:100%;
+    background-color: #fff;
+    height: 130px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.slide-swiper-container .swiper-slide  img{
+    width: 100px;
+    /* max-width: 120px; */
+    object-fit: contain;
+    cursor: pointer;
+}
+.slide-swiper-container .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
